@@ -1,5 +1,25 @@
 @import url("https://use.typekit.net/gcd1tcd.css");
 
+/* import all css files */
+@import url("./Header.css");
+@import url("./Home.css");
+@import url("./Navbar.css");
+@import url("./AppDownload.css");
+@import url("./DiscoverFeatures.css");
+@import url("./Heading.css");
+@import url("./ContactUs.css");
+@import url("./CustomInput.css");
+@import url("./CustomButton.css");
+@import url("./Footer.css");
+
+/* Colors   */
+:root {
+  --primary: #F78985;
+  --secondary: #FFF5F3;
+  --text_color: #100F0F;
+  --blue: #A485F7;
+}
+
 *,
 *::before,
 *::after {
@@ -18,3 +38,27 @@ body{
     font-family: myriad-arabic !important;
   }
   
+
+  .secondary_heading{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    padding-bottom: 2rem;
+  }
+
+  .primary_text{
+    color: #000;
+    font-size: 4rem;
+  }
+
+  @media only screen and (max-width: 1600px) {
+    html{
+      font-size: 55%;
+    }
+  }
+
+  @media only screen and (max-width: 1366.9px) {
+    html{
+      font-size: 45%;
+    }
+  }

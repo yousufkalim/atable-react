@@ -1,0 +1,29 @@
+.home_header{
+    display: flex;
+    width: 100%;
+    padding:1% 5%;
+    align-items: center;
+}
+
+.home_header_content{
+    flex-basis: 50%;
+}
+
+.home_header_content h1{
+    color: var(--primary);
+    font-size: 7.5rem;
+}
+
+.home_header_content p{
+    color: var(--text_color);
+    font-size: 5rem;
+    line-height: 7rem;
+    padding-block: 1% 5%;
+}
+
+.home_header_image{
+    flex-basis: 50%;
+}
+.home_header_image img{
+    max-width: 100%;
+}

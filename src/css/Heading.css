@@ -1,0 +1,6 @@
+.primary_heading{
+    font-size: 5rem;
+    color: var(--primary);
+    padding-bottom: 5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.custom_navbar{
+    font-size: 4rem;
+    /* color: #fff !important; */
+}
+
+.custom_navbar_container{
+    align-items: flex-start !important;
+}
+
+.custom_navbar .navbar-nav .nav-link{
+    color: var(--primary) !important;
+    margin: 0 5rem !important;
+
+}
+.custom_navbar .navbar-collapse{
+    padding-top: 1.5%;
+}
+.custom_navbar .home_logo{
+    width: 100%;
+}
+
+.custom_navbar .navbar-toggler{
+    font-size: 2.5rem !important;
+}

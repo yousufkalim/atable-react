@@ -1,0 +1,23 @@
+.app_download{
+    padding: 5%;
+    background-color: #fff;
+    width: 100%;
+}
+
+.app_download_heading{
+    color: var(--blue);
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+.app_download .app_download_text{
+    font-size: 3rem;
+    color: #000;
+
+}
+
+.app_download img {
+    max-width: 100%;
+    width: 65%;
+    
+}

@@ -1,0 +1,10 @@
+.home{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home_header_container{
+    background-color: var(--secondary);
+    padding-bottom: 7%;
+}

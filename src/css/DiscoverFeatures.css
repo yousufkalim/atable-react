@@ -1,0 +1,15 @@
+.discover_features{
+    padding: 7%;
+    background-color: var(--secondary);
+    width: 100%;
+    
+}
+
+.discover_section{
+    padding-block: 5%;
+    align-items: center;
+}
+
+.discover_section * {
+    padding-inline: 4%;
+}

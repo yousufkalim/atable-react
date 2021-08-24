@@ -1,0 +1,14 @@
+.contactus{
+    padding: 7% 7% 4% 7%;
+    background-color: #fff;
+    width: 100%;
+}
+
+.contactus_section{
+    padding-block: 2%;
+    align-items: center;
+}
+
+.contactus_inputs_section{
+    padding-left: 5% !important;
+}

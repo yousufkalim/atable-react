@@ -1,0 +1,15 @@
+.custom_footer{
+    background-color: var(--secondary);
+    font-size: 2.2rem;
+    color: var(--primary);
+}
+
+.custom_footer_heading{
+    padding-block: 2%;
+    text-align: center;
+}
+
+.custom_footer_copyrights{
+    text-align: center;
+    padding-top: 2%;
+}
