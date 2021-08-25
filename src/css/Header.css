@@ -1,12 +1,10 @@
 .home_header{
-    display: flex;
+    /* display: flex;
+    align-items: center; */
+    margin-top: 3%;
     width: 100%;
-    padding:1% 5%;
-    align-items: center;
-}
-
-.home_header_content{
-    flex-basis: 50%;
+    padding:3% 2%;
+    font-family: myriad-arabic !important;
 }
 
 .home_header_content h1{
@@ -18,12 +16,9 @@
     color: var(--text_color);
     font-size: 5rem;
     line-height: 7rem;
-    padding-block: 1% 5%;
+    padding-block: 4% 5%;
 }
 
-.home_header_image{
-    flex-basis: 50%;
-}
 .home_header_image img{
     max-width: 100%;
 }

@@ -3,7 +3,7 @@
     background-color: var(--blue) !important;
     outline: none !important;
     border: none !important;
-    padding-inline: 7% !important;
+    padding: 1% 7% !important;
     border-radius: 10px !important;
     line-height: 1 !important;
 }

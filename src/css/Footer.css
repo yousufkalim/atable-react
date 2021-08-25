@@ -1,7 +1,9 @@
 .custom_footer{
     background-color: var(--secondary);
-    font-size: 2.2rem;
+    font-size: 3rem;
+    /* font-size: 2.2rem; */
     color: var(--primary);
+    font-family: fontAwsome5Brands !important;
 }
 
 .custom_footer_heading{

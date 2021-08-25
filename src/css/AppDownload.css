@@ -2,12 +2,14 @@
     padding: 5%;
     background-color: #fff;
     width: 100%;
+    font-family: Arial;
 }
 
 .app_download_heading{
     color: var(--blue);
     font-size: 3.6rem;
     font-weight: bold;
+    padding-bottom: 4%;
 }
 
 .app_download .app_download_text{

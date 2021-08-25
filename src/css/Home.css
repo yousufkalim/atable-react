@@ -6,5 +6,32 @@
 
 .home_header_container{
     background-color: var(--secondary);
-    padding-bottom: 7%;
+    padding-bottom: 20%;
+
+    background: url("../assets/images/header.png"), var(--secondary);
+    background-position: right -7% bottom 50%;
+     background-size: 50% 65%;
+     background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 991.9px) {
+    .home_header_container{
+         background-size: 60% 65%;
+    }
+  }
+
+  @media only screen and (max-width: 767.9px) {
+    .home_header_container{
+        background-position: right -7% bottom 10%;
+        background-size: 90% 50%;
+        padding-bottom: 100%;
+   }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home_header_container{
+        background-position: right -7% bottom 15%;
+        background-size: 90% 30%;
+        padding-bottom: 100%;
+   }
+  }

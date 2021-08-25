@@ -4,7 +4,7 @@ import {Button} from "react-bootstrap";
 const CustomButton = (props) => {
     return (
         <>
-            <Button {...props} className="custom_button">{props.btnText}</Button>
+            <Button {...props} className="custom_button">{props.btntext}</Button>
         </>
     )
 }

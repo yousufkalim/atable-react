@@ -1,23 +1,28 @@
 import React from 'react';
 import headerImage from "../assets/images/header.png";
 import CustomButton from './CustomButton';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <div className="home_header">
-            <div className="home_header_content">
+       <div className="home_header">
+            <Container fluid>
+            <Row className="align-items-center">
+            <Col md={6} className="home_header_content py-lg-0 py-5">
                 <h1>L’APPLICATION SANS CONTACT !</h1>
-                <p>
+                <p className="mb-5">
                 Retrouvez des fonctionnalités exclusives pour
 permettre à votre restaurant de générer plus 
 de chiffre d’affaires, et en toute sécurité !
                 </p>
-            <CustomButton btnText="En savoir plus" />
-            </div>
-            <div className="home_header_image">
-                <img src={headerImage} alt="header" />
-            </div>
-        </div>
+            <CustomButton btntext="En savoir plus" />
+            </Col>
+            <Col md={6} className="home_header_image py-lg-0 py-5">
+                {/* <img src={headerImage} alt="header" /> */}
+            </Col>
+            </Row>
+        </Container>
+       </div>
     )
 }
 

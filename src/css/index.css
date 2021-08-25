@@ -12,6 +12,23 @@
 @import url("./CustomButton.css");
 @import url("./Footer.css");
 
+
+/* Import Fonts */
+@font-face{
+  font-family: myriad-arabic;
+  src: url("../assets/fonts/MYRIADPRO-BOLD.woff");
+  src: url("../assets/fonts/MYRIADPRO-COND.woff");
+  src: url("../assets/fonts/MyriadPro-Light.woff");
+  src: url("../assets/fonts/MYRIADPRO-SEMIBOLD.woff");
+  src: url("../assets/fonts/MYRIADPRO-REGULAR.woff");
+}
+
+@font-face{
+  font-family: fontAwsome5Brands;
+  src: url("../assets/fonts/fa-brands-400.ttf");
+}
+
+
 /* Colors   */
 :root {
   --primary: #F78985;
@@ -19,6 +36,24 @@
   --text_color: #100F0F;
   --blue: #A485F7;
 }
+
+/*  Scroll Bar  */
+body::-webkit-scrollbar {
+  width: 1em;
+  border-radius: 1rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  outline: 1px solid slategrey;
+  border-radius: 50%;
+
+}
+
 
 *,
 *::before,
@@ -35,7 +70,7 @@ html{
 }
 
 body{
-    font-family: myriad-arabic !important;
+  font-family: Arial;
   }
   
 
@@ -49,16 +84,29 @@ body{
   .primary_text{
     color: #000;
     font-size: 4rem;
+    line-height: 1.2;
   }
 
   @media only screen and (max-width: 1600px) {
     html{
-      font-size: 55%;
+      font-size: 40%;
     }
   }
 
   @media only screen and (max-width: 1366.9px) {
     html{
-      font-size: 45%;
+      font-size:38%;
+    }
+  }
+
+  @media only screen and (max-width: 991.9px) {
+    html{
+      font-size:35%;
+    }
+  }
+
+  @media only screen and (max-width: 500.9px) {
+    html{
+      font-size:30%;
     }
   }

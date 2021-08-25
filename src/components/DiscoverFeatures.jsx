@@ -12,56 +12,55 @@ const DiscoverFeatures = () => {
         <div className="discover_features" id="DECOUVREZLESFONCTIONNALITES">
             <Heading heading="DECOUVREZ LES FONCTIONNALITES" className="text-center" />
             <Container fluid>
-                <Row className="discover_section">
-                    <Col md={7} className="pr-5">
+                <Row className="discover_section bottom_line">
+                    <Col md={7} className="pr-5 mb-lg-0 mb-5">
                         <div className="secondary_heading">Menu digital </div>
-                        <p className="primary_text">Enregistrez l’ensemble de votre menu
+                        <div className="primary_text">Enregistrez l’ensemble de votre menu
 très facilement. Vos clients ont accès 
 à vos plats et peuvent commander et 
-payer via l’application.</p>
+payer via l’application.</div>
                     </Col>
                     <Col md={5}>
-                        <img src={discover_features} alt="discover features" className="w-100" />
+                        <img src={discover_features} alt="discover features" className="w-100 mt-lg-0 mt-5" />
                     </Col>
                 </Row>
 
-                <Row className="discover_section">
+                <Row className="discover_section bottom_line">
                     <Col md={5}>
-                        <img src={QR_Code} alt="QR Code" className="w-100" />
+                        <img src={QR_Code} alt="QR Code" className="w-100 pr-5 mb-lg-0 mb-5" />
                     </Col>
-                    <Col md={7} className="pl-5">
+                    <Col md={7} className="pl-5 mt-lg-0 mt-5">
                         <div className="secondary_heading">QR Codes </div>
-                        <p className="primary_text">Plus besoin de faire la queue au comptoir. 
+                        <div className="primary_text">Plus besoin de faire la queue au comptoir. 
 Via un QR code, l’application détecte la table 
 assignée à chaque commande, pour multiplier 
-votre productivité ! </p>
+votre productivité ! </div>
                     </Col>
                    
                 </Row>
 
-                <Row className="discover_section">
-                    <Col md={7}>
+                <Row className="discover_section bottom_line">
+                    <Col md={7} className="mb-lg-0 mb-5" >
                     <div className="secondary_heading">Requêtes au serveur </div>
-                        <p className="primary_text">Retrouvez l’ensemble des requêtes de 
-vos clients directement sur l’application. 
-Finis les allez-retours incessants, et vos 
-clients sont satisfaits !</p>
+                        <div className="primary_text">Retrouvez l’ensemble des requêtes de 
+vos clients directement sur l’application.Finis les allez-retours incessants, et vos 
+clients sont satisfaits !</div>
                     </Col>
                     <Col md={5}>
-                        <img src={server_requests} alt="Server Requests" className="w-100" />
+                        <img src={server_requests} alt="Server Requests" className="w-100 mt-lg-0 mt-5" />
                     </Col>
                 </Row>
 
                 <Row className="discover_section">
                     <Col md={5}>
-                        <img src={dishes_rating} alt="Notation des plats" className="w-100" />
+                        <img src={dishes_rating} alt="Notation des plats" className="w-100 mb-lg-0 mb-5" />
                     </Col>
-                    <Col md={7} className="pl-5">
+                    <Col md={7} className="pl-5 mt-lg-0 mt-5">
                         <div className="secondary_heading">Notation des plats </div>
-                        <p className="primary_text">Recevez les avis de vos consommateurs, 
+                        <div className="primary_text">Recevez les avis de vos consommateurs, 
 sans que ceux-ci n’impactent votre 
 e-réputation. Affinez votre menu en fonction 
-de ces retours</p>
+de ces retours</div>
                     </Col>
                    
                 </Row>

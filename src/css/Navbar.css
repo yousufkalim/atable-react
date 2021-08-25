@@ -1,5 +1,8 @@
 .custom_navbar{
     font-size: 4rem;
+    font-family: myriad-arabic !important;
+
+    font-weight: 400;
     /* color: #fff !important; */
 }
 
@@ -16,9 +19,31 @@
     padding-top: 1.5%;
 }
 .custom_navbar .home_logo{
-    width: 100%;
+    width: 25rem;
+    margin-top: 4%;
+    margin-left: 10%;
 }
 
 .custom_navbar .navbar-toggler{
     font-size: 2.5rem !important;
 }
+
+@media only screen and (max-width: 991px) {
+    .custom_navbar .navbar-toggler{
+        margin: 2%;
+    }
+
+    /* .custom_navbar .home_logo{
+        width: 70%;
+       
+    } */
+  }
+
+  @media only screen and (max-width: 767px) {
+
+
+    /* .custom_navbar .home_logo{
+        width: 50%;
+       
+    } */
+  }
