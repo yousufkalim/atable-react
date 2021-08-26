@@ -26,6 +26,14 @@
 
 @media only screen and (max-width: 767.9px) {    
     .bottom_line{
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid rgb(110, 108, 108);
+    }
+
+    .discover_section_left{
+        padding-block: 5rem;
+    }
+    
+    .discover_section_right{
+        padding-block: 5rem;
     }
   }
