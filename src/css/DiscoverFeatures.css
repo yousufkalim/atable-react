@@ -1,5 +1,5 @@
 .discover_features{
-    padding: 3%;
+    padding: 7% 3%;
     background-color: var(--secondary);
     width: 100%;
     
@@ -11,18 +11,14 @@
 .discover_section_left{
     padding-right: 3%;
     align-items: center;
+    padding-block: 5%;
 }
 
 .discover_section_right{
     padding-left: 3%;
     align-items: center;
+    padding-block: 5%;
 }
-
-
-.discover_section * {
-    padding-inline: 4%;
-}
-
 
 @media only screen and (max-width: 767.9px) {    
     .bottom_line{
@@ -30,10 +26,10 @@
     }
 
     .discover_section_left{
-        padding-block: 5rem;
+        padding-block: 5%;
     }
     
     .discover_section_right{
-        padding-block: 5rem;
+        padding-block: 5%;
     }
   }

@@ -24,7 +24,7 @@ const AppDownload = () => {
     return (
         <div className="app_download" id="Téléchargezl’application">
             <Heading heading="Téléchargez l’application" className="text-center" />
-            <Container fluid>
+            <Container fluid className="app_download_content">
                 <Row className="align-items-center">
                     <Col md={6} className="text-center pb-lg-0 pb-5">
                         <a onClick={() =>handleOpen("apple")} rel="noreferrer" target="_blank">
