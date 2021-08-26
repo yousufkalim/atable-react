@@ -1,14 +1,23 @@
 .discover_features{
-    padding: 7%;
+    padding: 3%;
     background-color: var(--secondary);
     width: 100%;
     
 }
 
-.discover_section{
-    padding-block: 3%;
+.discover_features img{
+    max-width: 100%;
+}
+.discover_section_left{
+    padding-right: 3%;
     align-items: center;
 }
+
+.discover_section_right{
+    padding-left: 3%;
+    align-items: center;
+}
+
 
 .discover_section * {
     padding-inline: 4%;

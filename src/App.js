@@ -1,4 +1,4 @@
-import Home from "./Container/Home";
+import Home from "./containers/Home";
 import {Route, Switch} from "react-router-dom";
 
 function App() {

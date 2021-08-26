@@ -11,6 +11,7 @@
 @import url("./CustomInput.css");
 @import url("./CustomButton.css");
 @import url("./Footer.css");
+@import url("./CustomModal.css");
 
 
 /* Import Fonts */
@@ -50,7 +51,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: var(--primary);
   outline: 1px solid slategrey;
-  border-radius: 50%;
+  border-radius: 5rem;
 
 }
 
@@ -64,7 +65,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 html{
-  font-size: 62.5%;
+  font-size: 50%;
   line-height: 1.4;
   scroll-behavior: smooth;
 }

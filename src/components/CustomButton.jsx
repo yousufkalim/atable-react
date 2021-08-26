@@ -1,10 +1,25 @@
 import React from 'react'
-import {Button} from "react-bootstrap";
+import {Button, Spinner} from "react-bootstrap";
 
 const CustomButton = (props) => {
+    const {btntext, spinner} = props;
     return (
         <>
-            <Button {...props} className="custom_button">{props.btntext}</Button>
+            <Button {...props} disabled={spinner ? true : false} className="custom_button">
+
+            {spinner ? (
+                      <Spinner
+                        as="span"
+                        animation="border"
+                        size="lg"
+                        role="status"
+                        aria-hidden="true"
+                      /> 
+                    ) : 
+                        btntext
+                    }
+                
+            </Button>
         </>
     )
 }
