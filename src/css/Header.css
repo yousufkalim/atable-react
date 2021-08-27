@@ -7,7 +7,7 @@
     font-family: myriad-arabic !important;
 }
 
-.home_header_content h1{
+.home_header_content h2{
     color: var(--primary);
     font-size: 7.5rem;
 }
@@ -22,3 +22,30 @@
 .home_header_image img{
     max-width: 100%;
 }
+
+.home_header_content{
+    margin-top: 3% !important;
+}
+
+@media only screen and (max-width: 767.9px) {
+    .home_header{
+        /* display: flex;
+        align-items: center; */
+        padding-top: 80%;
+    }
+
+    .home_header_content{
+        margin-top: 0% !important;
+    }
+    
+  }
+
+  
+@media only screen and (max-width: 400px) {
+    .home_header{
+        /* display: flex;
+        align-items: center; */
+        padding-top: 80%;
+    }
+    
+  }

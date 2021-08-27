@@ -2,10 +2,11 @@
      margin-bottom: 5%;
  }
  .custom_input{
-    padding: 1% 5%;
+    padding: 1.5% 5%;
     font-size: 3.5rem;
     border: 1px solid #707070;
     width: 100%;
+    border-radius: 6px !important;
     /* margin-bottom: 1rem; */
 
 }

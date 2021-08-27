@@ -9,27 +9,27 @@ import QR_Code from "../assets/images/QR_codes.png";
 
 const DiscoverFeatures = () => {
     return (
-        <div className="discover_features" id="DECOUVREZLESFONCTIONNALITES">
-            <Heading heading="DECOUVREZ LES FONCTIONNALITES" className="text-center" />
+        <section className="discover_features" id="DECOUVREZLESFONCTIONNALITES">
+            <Heading heading="DÉCOUVREZ LES FONCTIONNALITÉS" className="text-center" />
             <Container fluid>
                 <Row className="discover_section_right bottom_line">
-                    <Col md={6} className="pr-5 mb-lg-0 mb-5">
+                    <Col md={6} className="pr-5 my-lg-0 my-5 text-md-start text-center">
                         <div className="secondary_heading">Menu digital </div>
                         <div className="primary_text">Enregistrez l’ensemble de votre menu
 très facilement. Vos clients ont accès 
 à vos plats et peuvent commander et 
 payer via l’application.</div>
                     </Col>
-                    <Col md={6} className="text-end">
+                    <Col md={6} className="text-md-end text-center">
                         <img src={discover_features} alt="discover features" className=" mt-lg-0 mt-5" />
                     </Col>
                 </Row>
 
                 <Row className="discover_section_left bottom_line">
-                    <Col md={6} className="text-start">
+                    <Col md={6} className="text-md-start text-center">
                         <img src={QR_Code} alt="QR Code" className="pr-5 mb-lg-0 mb-5" />
                     </Col>
-                    <Col md={6} className="pl-5 mt-lg-0 mt-5">
+                    <Col md={6} className="pl-5 my-lg-0 my-5 text-md-start text-center">
                         <div className="secondary_heading">QR Codes </div>
                         <div className="primary_text">Plus besoin de faire la queue au comptoir. 
 Via un QR code, l’application détecte la table 
@@ -40,22 +40,21 @@ votre productivité ! </div>
                 </Row>
 
                 <Row className="discover_section_right bottom_line">
-                    <Col md={6} className="mb-lg-0 mb-5" >
+                    <Col md={6} className="my-lg-0 my-5 text-md-start text-center" >
                     <div className="secondary_heading">Requêtes au serveur </div>
-                        <div className="primary_text">Retrouvez l’ensemble des requêtes de 
-vos clients directement sur l’application.Finis les allez-retours incessants, et vos 
-clients sont satisfaits !</div>
+                        <div className="primary_text">Retrouvez l’ensemble des requêtes de vos clients directement sur l’application. Finis les aller-retours incessants, et vos clients sont satisfaits !
+</div>
                     </Col>
-                    <Col md={6} className="text-end">
+                    <Col md={6} className="text-md-end text-center">
                         <img src={server_requests} alt="Server Requests" className=" mt-lg-0 mt-5" />
                     </Col>
                 </Row>
 
                 <Row className="discover_section_left">
-                    <Col md={6} className="text-start">
+                    <Col md={6} className="text-md-start text-center">
                         <img src={dishes_rating} alt="Notation des plats" className="mb-lg-0 mb-5" />
                     </Col>
-                    <Col md={6} className="pl-5 mt-lg-0 mt-5">
+                    <Col md={6} className="pl-5 my-lg-0 my-5 text-md-start text-center">
                         <div className="secondary_heading">Notation des plats </div>
                         <div className="primary_text">Recevez les avis de vos consommateurs, 
 sans que ceux-ci n’impactent votre 
@@ -67,7 +66,7 @@ de ces retours</div>
 
             
             </Container>
-        </div>
+        </section>
     )
 }
 
