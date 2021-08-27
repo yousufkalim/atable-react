@@ -9,13 +9,13 @@
     max-width: 100%;
 }
 .discover_section_left{
-    padding-right: 3%;
+    padding-right: 6%;
     align-items: center;
     padding-block: 5%;
 }
 
 .discover_section_right{
-    padding-left: 3%;
+    padding-left: 6%;
     align-items: center;
     padding-block: 5%;
 }
@@ -26,10 +26,13 @@
     }
 
     .discover_section_left{
-        padding-block: 5%;
+        padding-inline: 10%;
+        padding-block: 7%;
     }
     
     .discover_section_right{
-        padding-block: 5%;
+    padding-inline: 10%;
+        padding-block: 7%;
+    flex-direction: column-reverse !important;
     }
   }

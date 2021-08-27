@@ -64,7 +64,7 @@ export const changeHandler = (e, data, setData, error, setError) => {
 }
 
 const clearInputs = (setData) => {
-    setData({restaurantName: "", code: "", ownerName: "", phone: "", email: "" })
+    setData({restaurantName: "", code: "", ownerName: "", phone: "", email: "", codeOptional: "" })
   };
 
 
@@ -96,7 +96,7 @@ const clearInputs = (setData) => {
     }
     else{
         setSpinner(true);
-        setError({...error, restaurantName: "", code: "", ownerName: "", phone: "", email: ""})
+        setError({...error, restaurantName: "", code: "", ownerName: "", phone: "", email: "", codeOptional: ""})
         sendEmail(e, setData, setSpinner);
        
     }

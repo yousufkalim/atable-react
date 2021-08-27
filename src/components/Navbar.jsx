@@ -15,7 +15,7 @@ const CustomNavbar = () => {
       <Nav className="mr-auto">
         <Nav.Link href="#Téléchargezl’application">Télécharger</Nav.Link>
         <Nav.Link href="#DECOUVREZLESFONCTIONNALITES">Fonctionnalités</Nav.Link>
-        <Nav.Link href="#CONTACTEZ-NOUS">Contectaz-nous</Nav.Link>
+        <Nav.Link href="#CONTACTEZ-NOUS">Contactez-nous</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

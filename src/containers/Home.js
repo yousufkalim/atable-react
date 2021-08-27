@@ -9,11 +9,11 @@ import Navbar from '../components/Navbar'
 const Home = () => {
     return (
         <div className="home">
-            <div className="home_header_container">
+            <header className="home_header_container">
                 <Navbar />
                 <Header />
                
-            </div>
+            </header>
             <AppDownload />
                 <DiscoverFeatures />
                 <ContactUs />

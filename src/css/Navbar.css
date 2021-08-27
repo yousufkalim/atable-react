@@ -16,22 +16,31 @@
 
 }
 .custom_navbar .navbar-collapse{
-    padding-top: 1.5%;
+    padding-top: 1.2%;
     padding-left: 10%;
 }
 .custom_navbar .home_logo{
-    width: 25rem;
+    width: 18rem;
     margin-top: 4%;
     margin-left: 10%;
 }
 
 .custom_navbar .navbar-toggler{
-    font-size: 2.5rem !important;
+    font-size: 3rem !important;
 }
 
 @media only screen and (max-width: 991px) {
     .custom_navbar .navbar-toggler{
         margin: 2%;
+    }
+
+    .custom_navbar .navbar-collapse {
+        padding-top: 1.2%;
+        padding-left: 0%;
+    }
+
+    .custom_navbar .navbar-nav .nav-link {
+        margin: 0 2rem !important;
     }
 
     /* .custom_navbar .home_logo{
@@ -42,6 +51,22 @@
 
   @media only screen and (max-width: 767px) {
 
+
+    .custom_navbar .home_logo{
+        width: 10rem;
+    }
+
+    .custom_navbar .navbar-toggler{
+        /* font-size: 3rem !important; */
+        margin-top: 2rem;
+    }
+
+    .custom_navbar .navbar-collapse {
+        position: absolute;
+        top: 11rem;
+        width: 100%;
+    }
+    
 
     /* .custom_navbar .home_logo{
         width: 50%;

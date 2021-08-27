@@ -18,7 +18,6 @@ const CustomMModal = (props) => {
     return (
         <>
              <Modal show={show} onHide={handleClose} className="custom_modal">
-       
         <Modal.Body>
 
           <div className="modal_header">

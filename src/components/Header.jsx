@@ -9,7 +9,7 @@ const Header = () => {
             <Container fluid>
             <Row className="align-items-center">
             <Col md={6} className="home_header_content py-lg-0 py-5">
-                <h1>L’APPLICATION SANS CONTACT !</h1>
+                <h2>L’APPLICATION SANS CONTACT !</h2>
                 <p className="mb-5">
                 Retrouvez des fonctionnalités exclusives pour
 permettre à votre restaurant de générer plus 

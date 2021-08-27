@@ -20,7 +20,14 @@
 }
 
 .app_download img {
-  max-width: 100%;
-  width: 65%;
+  max-width: 50%;
+  width: 40%;
   cursor: pointer;
+  /* display: block; */
+}
+
+.app_download_links{
+  width: 100%;
+  text-align: center;
+  display: block;
 }
