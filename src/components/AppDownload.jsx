@@ -34,7 +34,7 @@ const AppDownload = () => {
                             <img className="mb-lg-0 mb-5" src={AndroidStore} alt="Google Play Store" />
                         </a>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className="app_download_content_wrapper">
                         <h3 className="app_download_heading mt-lg-0 mt-5" >Avec A TABLE, votre restaurant 
 se met sereinement à l’ère du 
 numérique

@@ -1,9 +1,12 @@
 .contactus{
-    padding: 7% 4% 4% 4%;
+    padding: 12% 4% 4% 4%;
     background-color: #fff;
     width: 100%;
 }
 
+.contactus h2{
+    padding-bottom: 5%;
+}
 .contactus_section{
     padding-block: 5%;
     align-items: center;

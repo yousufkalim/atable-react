@@ -31,7 +31,7 @@
   @media only screen and (max-width: 600px) {
     .home_header_container{
       background-position: right 0% top 20%;
-      background-size: 75% 35%;
+      background-size: 95% 45%;;
     padding-bottom: 10%
     
         /* padding-bottom: 100%; */
@@ -41,7 +41,7 @@
   @media only screen and (max-width: 400px) {
     .home_header_container{
       background-position: right 0% top 15%;
-      background-size: 75% 35%;
+      background-size: 95% 40%;
     padding-bottom: 8%;
 
     
