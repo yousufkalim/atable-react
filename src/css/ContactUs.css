@@ -1,5 +1,5 @@
 .contactus{
-    padding: 12% 4% 4% 4%;
+    padding: 6% 4% 4% 4%;
     background-color: #fff;
     width: 100%;
 }
@@ -24,5 +24,10 @@
 
     .contactus_inputs_section {
         padding-left: 0% !important;
+    }
+    .contactus{
+        padding: 12% 4% 4% 4%;
+        background-color: #fff;
+        width: 100%;
     }
   }

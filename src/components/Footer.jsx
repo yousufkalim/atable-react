@@ -35,7 +35,7 @@ const Footer = (props) => {
                     <a
                     rel="noreferrer"
                         className="home-social-link mb-3"
-                        // href="https://www.instagram.com/issyne_lapplication"
+                        href="https://instagram.com/a.table.app?utm_medium=copy_link"
                         target="_blank"
                     >
                         <img src={instagram} alt="instagram" className="home-social-icon" />
@@ -45,7 +45,7 @@ const Footer = (props) => {
                     <a
                     rel="noreferrer"
                         className="home-social-link"
-                        // href="https://www.facebook.com/issyne"
+                        href="https://www.facebook.com/Atableapp-100810982340854/"
                         target="_blank"
                     >
                         <img alt="facebook" src={facebook} className="home-social-icon" />

@@ -28,7 +28,7 @@ const CustomMModal = (props) => {
           </div>
           
           <div className="custom_modal_body">
-          <a className="custom_modal_btn" href={appLink === "apple" ? appleLinks.restaurant : appLink === "google" && googleLinks.restaurant } target="_blank" >Restuarant</a>
+          <a className="custom_modal_btn" href={appLink === "apple" ? appleLinks.restaurant : appLink === "google" && googleLinks.restaurant } target="_blank" >Restaurant</a>
           <a className="custom_modal_btn" href={appLink === "apple" ? appleLinks.client : appLink === "google" && googleLinks.client } target="_blank" >Client</a>
           </div>
         </Modal.Body>
