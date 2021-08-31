@@ -34,7 +34,7 @@ const Footer = (props) => {
 
                     <a
                     rel="noreferrer"
-                        className="home-social-link mb-3"
+                        className="home-social-link"
                         href="https://instagram.com/a.table.app?utm_medium=copy_link"
                         target="_blank"
                     >
@@ -56,7 +56,7 @@ const Footer = (props) => {
 
                 <Col md={4} className="footer_app_download_container">
                 <a onClick={() =>handleOpen("apple")} rel="noreferrer" target="_blank" className="footer_app_download_links">
-                            <img src={iosStore} alt="Apple Store" className="pb-5" />
+                            <img src={iosStore} alt="Apple Store" className="pb-3" />
                         </a>
                         <a onClick={() =>handleOpen("google")} rel="noreferrer" target="_blank" className="footer_app_download_links">
                             <img src={AndroidStore} alt="Google Play Store" />
