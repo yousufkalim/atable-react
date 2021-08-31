@@ -34,6 +34,12 @@
         margin: 2%;
     }
 
+    .custom_navbar .navbar-nav{
+        
+    flex-direction: row;
+   
+    justify-content: center;
+    }
     .custom_navbar .navbar-collapse {
         padding-top: 1.2%;
         padding-left: 0%;
@@ -60,8 +66,8 @@
     }
 
     .custom_navbar .navbar-collapse {
-        position: absolute;
-        top: 11rem;
+        /* position: absolute;
+        top: 11rem; */
         width: 100%;
     }
     
@@ -74,7 +80,9 @@
 
   @media only screen and (max-width: 420px) {
 
-
+    .custom_navbar .navbar-collapse {
+        padding-top: 0%;
+    }
     .custom_navbar .home_logo{
         width: 7rem;
     }
