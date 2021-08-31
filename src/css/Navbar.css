@@ -20,7 +20,7 @@
     padding-left: 10%;
 }
 .custom_navbar .home_logo{
-    width: 18rem;
+    width: 15rem;
     margin-top: 4%;
     margin-left: 10%;
 }
@@ -50,8 +50,6 @@
   }
 
   @media only screen and (max-width: 767px) {
-
-
     .custom_navbar .home_logo{
         width: 10rem;
     }
@@ -73,3 +71,12 @@
        
     } */
   }
+
+  @media only screen and (max-width: 420px) {
+
+
+    .custom_navbar .home_logo{
+        width: 7rem;
+    }
+
+}
